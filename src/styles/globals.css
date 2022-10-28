@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Barlow', sans-serif;
+  }
+}
+.news-editor .ProseMirror {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 2px;
+  border-radius: 0px 0px 6px 6px;
+  min-height: 300px;
+  outline: none;
+}
+
+.ProseMirror:focus-visible,
+:focus {
+  outline: none;
+}
+
+.ProseMirror > * + * {
+  margin-top: 0.75em;
+}
+
+.ProseMirror blockquote {
+  border-left: 3px solid rgba(13, 13, 13, 0.1);
+  padding-left: 1rem;
+}
+
+hr.ProseMirror-selectednode {
+  border-top: 1px solid #68cef8;
+}
+
+.ProseMirror h1 {
+  font-size: 30px;
+}
+
+.ProseMirror h2 {
+  font-size: 22px;
+}
+
+.ProseMirror a {
+  color: #68cef8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ProseMirror code {
+  background-color: rgba(#616161, 0.1);
+  border-radius: 0.25em;
+  box-decoration-break: clone;
+  color: #616161;
+  font-size: 0.9rem;
+  padding: 0.25em;
+}
