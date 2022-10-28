@@ -20,8 +20,8 @@ const config = defineNextConfig({
     domains: ['lh3.googleusercontent.com', 'ik.imagekit.io'],
   },
   env: {
-    IMAGEKIT_URL: 'https://ik.imagekit.io/ostojics/',
-    IMAGEKIT_PUBLIC_KEY: 'public_GTPx4piPhlRyuoALNQIXTEuezSU=',
+    IMAGEKIT_URL: 'https://ik.imagekit.io/educons/',
+    IMAGEKIT_PUBLIC_KEY: 'public_Vf+dVeHYPPR6r7vnItdK+1VipCE=',
   },
 });
 
