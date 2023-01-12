@@ -41,6 +41,11 @@ export const Navbar = () => {
                 <a className="active:bg-red-600">Kontakt</a>
               </Link>
             </li>
+            <li>
+              <Link href="/info">
+                <a className="active:bg-red-600">Info</a>
+              </Link>
+            </li>
             {isAdmin && (
               <li>
                 <Link href="/admin/users">
@@ -62,8 +67,11 @@ export const Navbar = () => {
           <li className="mr-6 ">
             <NavLink linkTo="/students">Studenti</NavLink>
           </li>
-          <li className={`${isAdmin ? 'mr-6' : ''}`}>
+          <li className="mr-6">
             <NavLink linkTo="/contact">Kontakt</NavLink>
+          </li>
+          <li className={`${isAdmin ? 'mr-6' : ''}`}>
+            <NavLink linkTo="/info">Info</NavLink>
           </li>
           {isAdmin && (
             <li>
