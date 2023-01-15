@@ -10,7 +10,6 @@ const InfoPage = () => {
         <title>Info</title>
         <meta name="description" content="General info" />
       </Head>
-
       <div className="lg:w-[60%] w-[80%] mx-auto text-center">
         <h1 className="mb-2 mt-3 leading-normal">
           UNIVERZITET EDUKONS STUDENTSKI ORIJENTISAN SISTEM <br />{' '}
