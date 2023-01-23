@@ -23,6 +23,7 @@ const Home: NextPage<InferGetStaticPropsType<GetStaticProps>> = (props) => {
           ></iframe>
         </div>
       </section>
+
       {latestNews.length > 0 && (
         <section className="w-[90%] mx-auto mt-[40px]">
           <h1 className="text-[35px] lg:text-[45px] text-black font-bold text-left">Breaking News</h1>
