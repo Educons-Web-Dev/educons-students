@@ -34,6 +34,7 @@ const Home: NextPage<InferGetStaticPropsType<GetStaticProps>> = (props) => {
           </div>
         </section>
       )}
+
       <section className="mt-[30px] w-[80%] mx-auto">
         <div className="flex items-start my-[40px] lg:my-[90px]">
           <div className="flex flex-col w-[550px] mr-8 mt-[30px]">
